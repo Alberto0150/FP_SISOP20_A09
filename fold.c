@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
   }
   else if(argc==3)
   {
-    char tipe[100];
+    char tipe[20];
     int newbatas,i,j;
     strcpy(tipe, argv[1]);
     newbatas=strlen(tipe);
